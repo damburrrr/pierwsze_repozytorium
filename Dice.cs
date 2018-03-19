@@ -10,7 +10,8 @@ namespace DICES_DB
     class Dice:Button
     {
         public int value { get; set; }
-
+        private int test =999;
+        
         public int Roll()
         {
             Random rand = new Random();
